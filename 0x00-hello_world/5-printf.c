@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - program to use printf function and pass -Wall gcc test.
- * return (0) SUCCESS.
+ *main - Entry point
+ * Description: Using printf function while complying with betty and -Wall gcc.
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
