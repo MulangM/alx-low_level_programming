@@ -23,7 +23,7 @@ int print_sign(int n)
 	{
 		i = 48;
 		j = 48;
-		putchar(i);
+		_putchar(i);
 		_putchar(j);
 	}
 	else if (n > 0)
