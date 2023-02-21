@@ -9,17 +9,22 @@
 
 int print_last_digit(int a)
 {
-	int rem;
+	char rem;
+	int i;
 
-	if (a > 0)
+	for (i = 48; i <= 57; i++)
 	{
-		rem = (a % 10);
+		if (a % 10 == char i)
+			rem = char i;
+			_putchar(rem)
+			return (a % 10);
+
+	}
+	else if ((a * -1) % 10 == char i)
+	{
+		rem = char i;
+		_putchar(rem);
 		return (rem);
 	}
-	else
-	{
-		rem = ((a * -1) % 10);
-		return (rem);
-	}
-	return (rem);
+	return (0);
 }
