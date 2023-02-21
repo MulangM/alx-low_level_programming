@@ -10,27 +10,24 @@
 int print_sign(int n)
 {
 	char i;
-	char j;
-
+	
 	if (n < 0)
 	{
 		i = 45;
-		j = 49;
 		_putchar(i);
 		return (1);
 	}
 	else if (n == 0)
 	{
 		i = 48;
-		j = 48;
 		_putchar(i);
-		return(0);
+		return (0);
 	}
 	else if (n > 0)
-	{	i = 43;
-		j = 49;
+	{
+		i = 43;
 		_putchar(i);
-		return(1);
+		return (1);
 	}
 	return (0);
 }
