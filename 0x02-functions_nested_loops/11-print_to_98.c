@@ -11,9 +11,9 @@ void print_to_98(int n)
 	if (n > 98)
 	{
 		do {
-			putchar(n + '0');
-			putchar(',');
-			putchar(' ');
+			_putchar(n + '0');
+			_putchar(',');
+			_putchar(' ');
 			if (n == 98)
 				break;
 		n--;
@@ -23,12 +23,12 @@ void print_to_98(int n)
 	else if (n < 98)
 	{
 		do {
-			putchar(n + '0');
-			putchar(',');
-			putchar(' ');
+			_putchar(n + '0');
+			_putchar(',');
+			_putchar(' ');
 			if (n == 98)
 				break;
 			n++;
 		} while (n < 98);
-	return (0);
+	}
 }
