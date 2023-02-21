@@ -16,21 +16,19 @@ int print_sign(int n)
 	{
 		i = 45;
 		j = 49;
-		_putchar(i);
-		return (j);
+		return (ij);
 	}
 	else if (n == 0)
 	{
 		i = 48;
 		j = 48;
-		_putchar(i);
-		return (j);
+		return (ij);
 	}
 	else if (n > 0)
 	{	i = 43;
 		j = 49;
 		_putchar(i);
-		return (j);
+                _putchar(j);
 	}
 	return (0);
 }
