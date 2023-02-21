@@ -10,7 +10,7 @@
 int print_sign(int n)
 {
 	char i;
-	
+
 	if (n < 0)
 	{
 		i = 45;
