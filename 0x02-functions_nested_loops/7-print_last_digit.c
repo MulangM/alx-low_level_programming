@@ -15,16 +15,17 @@ int print_last_digit(int a)
 	for (i = 48; i <= 57; i++)
 	{
 		if (a % 10 == char i)
+		{
 			rem = char i;
-			_putchar(rem)
+			_putchar(rem);
 			return (a % 10);
-
+		}
+		else if ((a * -1) % 10 == char i)
+		{
+			int rem = char i;
+			_putchar(rem);
+			return (rem);
+		}
+		return (0);
 	}
-	else if ((a * -1) % 10 == char i)
-	{
-		rem = char i;
-		_putchar(rem);
-		return (rem);
-	}
-	return (0);
 }
