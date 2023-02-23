@@ -10,9 +10,9 @@ int _isdigit(int c)
 {
 	int i;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		if (char i == c)
+		if (c == i)
 		{
 			return (1);
 		}
