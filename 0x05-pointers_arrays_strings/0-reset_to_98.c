@@ -3,6 +3,7 @@
 /**
  * reset_to_98 - takes a pointer to an int
  * Description: updates what it prints to 98.
+ * @n: parameter of a pointer.
  * Return: NOTHING (for a void function).
  */
 
