@@ -1,4 +1,5 @@
 #include "main.h"
+#include "7-puts_half.c"
 
 /**
  * main - check the code
