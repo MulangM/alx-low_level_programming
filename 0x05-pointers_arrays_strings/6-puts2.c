@@ -20,7 +20,7 @@ void puts2(char *str)
 		arry++;
 	}
 	arry_len = count - 1;
-	for (; i < arry_len; i++)
+	for (; i <= arry_len; i++)
 	{
 		if (i % 2 == 0)
 		{
