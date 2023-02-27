@@ -1,4 +1,5 @@
 #include "main.h"
+#include "6-puts2.c"
 
 /**
  * main - check the code
