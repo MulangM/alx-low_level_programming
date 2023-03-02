@@ -8,7 +8,7 @@
  */
 
 void reverse_array(int *a, int n)
-{	
+{
 	int i = 0;
 	int temp;
 
@@ -21,26 +21,3 @@ void reverse_array(int *a, int n)
 
 	}
 }
-/*
- * swap- swaps two elements
- * @c: fisrt parameter
- * @d: second parameter
- * Return: Always 0.
- 
-	int swap(int *c, int *d)
-	{
-		int temp;
-
-		c = temp;
-		d = c;
-		c = d;
-		return (0);
-	}
-
-	while (i < n)
-	{
-		swap(a[i], a[n - i]);
-		i++;
-	}
-*/
-
