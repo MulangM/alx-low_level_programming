@@ -2,7 +2,7 @@
 
 /**
  * string_toupper- change the characters of a string to upper.
- * @arr: the string to be 'uppered
+ * @a: the string to be 'uppered
  * Return: the array to be converted.
  */
 
