@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
+#include <stdio.h>
 
 /**
  * main- the function that prints its name. use argv and argc.
@@ -10,17 +10,9 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
 	(void)argc;
 
-	/*	myname = argv[0]; */
 
-	for (i = 0; argv[0][i] != '\0'; i++)
-	{
-		_putchar(argv[0][i]);
-	}
-	_putchar('\0');
-	_putchar('\n');
-
+	printf("%s\n", argv[0]);
 	return (0);
 }
