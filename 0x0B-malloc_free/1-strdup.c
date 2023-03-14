@@ -27,7 +27,7 @@ int _strlen(char *s)
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
-	
+
 	while (src[i] != '\0')
 	{
 		dest[i] = src[i];
@@ -39,8 +39,8 @@ char *_strcpy(char *dest, char *src)
 
 /**
  * _strdup- array that prints a string.
- * Description: This function creates memory 
- * Then copies a string into that memory.
+ * Description: This function creates memory
+ * then copies a string into that memory.
  * @str: string to allocate memory and copy.
  * Return: the new string.
  */
@@ -53,8 +53,11 @@ char *_strdup(char *str)
 	size = _strlen(str) + 1;
 
 	if (str == 0)
+	{
 		return (NULL);
-	dst = (char *)malloc(size *sizeof(char));
+	}
+
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{
