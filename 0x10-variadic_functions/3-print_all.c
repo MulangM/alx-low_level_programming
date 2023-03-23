@@ -5,7 +5,6 @@
  * @format: a list of types of arguments passed to the function.
  * Return: NOTHING FOR VOID FUNCTION.
  */
-
 void print_all(const char * const format, ...)
 {
 	va_list list;
@@ -14,7 +13,6 @@ void print_all(const char * const format, ...)
 	const char t_arg[] = "cifs";
 
 	va_start(list, format);
-
 	while (format && format[i])
 	{
 		j = 0;
@@ -47,6 +45,5 @@ void print_all(const char * const format, ...)
 			printf("%s", string);
 			break;
 		} i++;
-	}
-	printf("\n"), va_end(list);
+	} printf("\n"), va_end(list);
 }
