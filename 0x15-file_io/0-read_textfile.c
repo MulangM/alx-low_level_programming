@@ -3,10 +3,10 @@
 /**
  * read_textfile- a function that reads textile
  * and prints to the STDOUT.
- * @filename: text file to be read.
+ * @filename: name of file containing text to be read.
  * @letters: Number of letters to be read.
- * Return: w- The actual number of bytes read and printed
- * or 0 if function fails or filename is NULL.
+ * Return: w- The real/actual number of bytes read and printed
+ * or ZERO (0) is returned function fails or filename is NULL.
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
